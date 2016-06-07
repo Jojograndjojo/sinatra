@@ -1,6 +1,14 @@
 
 
 <div style='border: 30px groove blue'>
+  <% if @cat_name %>
   <h1>My name is <%= @cat_name %> </h1>
+  <% end %>
   <img src= 'http://www.top13.net/wp-content/uploads/2015/10/perfectly-timed-funny-cat-pictures-5.jpg'>
+  <form action="/name-cat">
+    <div>
+      <input type="text" name="name"/>
+      <input type="submit" value="Submit"/>
+    </div>
+  </form>
 </div>
