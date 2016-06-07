@@ -25,5 +25,6 @@ post '/name-cat' do
 end
 
 get '/form' do
+  p params
   erb(:form)
 end
