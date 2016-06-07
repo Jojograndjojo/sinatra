@@ -52,6 +52,7 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  rack
   selenium-webdriver
   shotgun
   sinatra
